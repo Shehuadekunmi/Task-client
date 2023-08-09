@@ -1,0 +1,60 @@
+.box-container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.head{
+    width: 100%;
+    overflow: hidden;
+}
+
+.text h1{
+    font-family: Signika Negative;
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  .text span{
+color: #974FD0;
+  }
+
+  .text button{
+   background: #974FD0;
+    border: none;
+    width: Hug (201px);
+height: Hug (50px);
+padding: 10px 25px 10px 25px;
+border-radius: 8px;
+gap: 10px
+
+  }
+
+  @media (min-width:760px) {
+    .text{
+        width: 50%;
+    }
+
+    .img{
+        width: 40%;
+    }
+  }
+
+  @media (min-width:1440px) {
+    .text p{
+        font-family: Signika Negative;
+        font-size: 24px;
+        font-weight: 400;
+        width: 535px;
+height: 153px;
+
+    }
+
+    .img{
+        width: 40%;
+
+    }
+
+    .text button{
+        margin-top: 30px;
+    }
+  }
